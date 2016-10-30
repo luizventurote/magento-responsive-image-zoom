@@ -1,2 +1,2 @@
-# magento-responsive-image-zoom
+# Magento Responsive Image Zoom
 Responsive image zoom for Magento.
