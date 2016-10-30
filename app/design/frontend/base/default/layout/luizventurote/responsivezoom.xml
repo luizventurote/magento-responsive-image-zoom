@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+
+    <catalog_product_view>
+
+        <reference name="head">
+
+            <!-- jQuery -->
+            <action method="addItem" ifconfig="luizventurote_magiczoom/options/active_jquery"><type>skin_js</type><name>luizventurote/js/jquery-1.11.1.js</name></action>
+
+            <!-- Owl Carousel -->
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active_owlcarousel"><type>skin_js</type><name>luizventurote/owlcarousel/owl.carousel.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>luizventurote/owlcarousel/owl.carousel.load.js</name></action>
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active_owlcarousel"><type>skin_js</type><name>luizventurote/owlcarousel/owl.carousel.compatible.min.js</name></action>
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active_owlcarousel"><type>skin_css</type><name>luizventurote/owlcarousel/owl.carousel.css</name></action>
+
+            <!-- Photoswipe -->
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active"><type>skin_js</type><name>luizventurote/photoswipe/photoswipe.min.js</name></action>
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active"><type>skin_js</type><name>luizventurote/photoswipe/photoswipe-ui-default.min.js</name></action>
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active"><type>skin_js</type><name>luizventurote/photoswipe/photoswipe-load.js</name></action>
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active"><type>skin_css</type><name>luizventurote/photoswipe/photoswipe.css</name></action>
+            <action method="addItem" ifconfig="luizventurote_responsivezoom/options/active"><type>skin_css</type><name>luizventurote/photoswipe/default-skin/default-skin.css</name></action>
+
+        </reference>
+
+        <reference name="product.info.media">
+            <action method="setTemplate" ifconfig="luizventurote_responsivezoom/options/active">
+                <template>luizventurote/magiczoom/media.phtml</template>
+            </action>
+        </reference>
+
+    </catalog_product_view>
+
+</layout>

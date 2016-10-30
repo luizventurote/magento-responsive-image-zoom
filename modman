@@ -1,2 +1,4 @@
-code										app/code/local/LuizVenturote/ResponsiveZoom/
-LuizVenturote_ResponsiveZoom.xml          	app/etc/modules/
+app/code/local/LuizVenturote/ResponsiveZoom/ app/code/local/LuizVenturote/ResponsiveZoom/
+app/design/frontend/base/default/layout/luizventurote/luizventurote.xml app/design/frontend/base/default/layout/luizventurote/luizventurote.xml
+app/etc/modules/LuizVenturote_ResponsiveZoom.xml app/etc/modules/LuizVenturote_ResponsiveZoom.xml
+skin/frontend/base/default/luizventurote skin/frontend/base/default/luizventurote
