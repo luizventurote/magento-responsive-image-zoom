@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LuizVenturote_ResponsiveZoom>
+            <active>true</active>
+            <codePool>local</codePool>
+        </LuizVenturote_ResponsiveZoom>
+    </modules>
+</config>

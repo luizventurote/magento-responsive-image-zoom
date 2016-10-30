@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <LuizVenturote_ResponsiveZoom>
+            <version>0.1.0</version>
+        </LuizVenturote_ResponsiveZoom>
+    </modules>
+
+    <global>
+
+        <models>
+            <luizventurote_responsivezoom>
+                <class>LuizVenturote_ResponsiveZoom_Model</class>
+            </luizventurote_responsivezoom>
+        </models>
+
+        <blocks>
+            <luizventurote_responsivezoom>
+                <class>LuizVenturote_ResponsiveZoom_Block</class>
+            </luizventurote_responsivezoom>
+        </blocks>
+
+        <helpers>
+            <luizventurote_responsivezoom>
+                <class>LuizVenturote_ResponsiveZoom_Helper</class>
+            </luizventurote_responsivezoom>
+        </helpers>
+
+    </global>
+
+    <frontend>
+
+        <layout>
+            <updates>
+                <luizventurote_responsivezoom>
+                    <file>luizventurote/responsivezoom.xml</file>
+                </luizventurote_responsivezoom>
+            </updates>
+        </layout>
+
+    </frontend>
+
+</config>
